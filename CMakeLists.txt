@@ -8,6 +8,6 @@ file(GLOB viso
 "src/*.h"
 "src/*.cpp")
 add_executable(untitled main.cpp
-        cmake-build-debug/vo_feature.h)
+        vo_feature.h)
 add_executable( untitled ${viso})
 target_link_libraries( untitled ${OpenCV_LIBS})
